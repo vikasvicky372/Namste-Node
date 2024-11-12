@@ -1,10 +1,14 @@
-const {x,calculate} = require("./sum")
+// const {calculateSum} = require("./calculate/sum")
+// const {calculateMultiply} = require("./calculate/multiply")
+
+const {calculateSum,calculateMultiply} = require("./calculate")
 var name = "Vikas";
 
 var a = 20;
 var b = 10;
 
-console.log(calculate(a,b));
+console.log(calculateSum(a,b));
+console.log(calculateMultiply(a,b));
 
 //console.log(name);
 //console.log(a + b);
