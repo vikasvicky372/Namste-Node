@@ -18,7 +18,7 @@ crypto.pbkdf2("password","salt",5000000,50,"sha512", (err, key)=> {
 
 setTimeout(()=>{
     console.log("call me right now");
-},100);
+},0);
 
 https.get("https://api.github.com/users/vikasvicky372",(res) => {
     console.log("api is called");
