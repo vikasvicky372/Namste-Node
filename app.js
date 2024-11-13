@@ -2,6 +2,9 @@
 // const {calculateMultiply} = require("./calculate/multiply")
 
 const {calculateSum,calculateMultiply} = require("./calculate")
+const data = require("./data/data.json")
+
+console.log(data);
 var name = "Vikas";
 
 var a = 20;
